@@ -1,0 +1,354 @@
+[
+	{
+		"$ItemType": "Furniture",
+		"ID": "Kitten Playpen",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/kittenplaypen.png:0@20, assets/kittenplaypen.png:1@20, assets/kittenplaypen.png:0@20, assets/kittenplaypen.png:4@20, assets/kittenplaypen.png:0@20, assets/kittenplaypen.png:2@20, assets/kittenplaypen.png:0@20, assets/kittenplaypen.png:5@20, assets/kittenplaypen.png:0@20, assets/kittenplaypen.png:3@20, assets/kittenplaypen.png:0@20, assets/kittenplaypen.png:6@20, assets/kittenplaypen.png:0@20, assets/kittenplaypen.png:7@20",
+				"DisplaySize": { "X": 4, "Y": 4 },
+				"CollisionHeight": 1
+			},
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "AnimalSupplies",
+		"MaxSold": 10,
+		"Cost": 2000,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.petfurniture/Kitten Playpen"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Puppy Playpen",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/puppyplaypen.png:0@20, assets/puppyplaypen.png:1@20, assets/puppyplaypen.png:2@20, assets/puppyplaypen.png:3@20, assets/puppyplaypen.png:4@20, assets/puppyplaypen.png:5@20, assets/puppyplaypen.png:6@20, assets/puppyplaypen.png:7@20",
+				"DisplaySize": { "X": 4, "Y": 4 },
+				"CollisionHeight": 2
+			},
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "AnimalSupplies",
+		"MaxSold": 10,
+		"Cost": 2000,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.petfurniture/Puppy Playpen"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Kitten",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/kittens.png:0@120, assets/kittens.png:1@10, assets/kittens.png:0@80, assets/kittens.png:3@20, assets/kittens.png:0@100, assets/kittens.png:2@40, assets/kittens.png:0@140, assets/kittens.png:3@20, assets/kittens.png:0@100, assets/kittens.png:4@30",
+				"NightTexture": "assets/kittens.png:7@100, assets/kittens.png:6@20, assets/kittens.png:7@300, assets/kittens.png:5@20",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/kittens.png:8@80, assets/kittens.png:11@20, assets/kittens.png:8@100, assets/kittens.png:12@30, assets/kittens.png:8@60, assets/kittens.png:9@10, assets/kittens.png:8@100, assets/kittens.png:11@20, assets/kittens.png:8@120, assets/kittens.png:10@40",
+				"NightTexture": "assets/kittens.png:15@300, assets/kittens.png:13@20, assets/kittens.png:15@200, assets/kittens.png:14@20",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/kittens.png:16@60, assets/kittens.png:19@20, assets/kittens.png:16@120, assets/kittens.png:18@40, assets/kittens.png:16@100, assets/kittens.png:19@20, assets/kittens.png:16@100, assets/kittens.png:20@30, assets/kittens.png:16@120, assets/kittens.png:17@10",
+				"NightTexture": "assets/kittens.png:23@200, assets/kittens.png:22@20, assets/kittens.png:23@500, assets/kittens.png:21@20",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/kittens.png:24@80, assets/kittens.png:25@10, assets/kittens.png:24@140, assets/kittens.png:27@20, assets/kittens.png:24@120, assets/kittens.png:27@20, assets/kittens.png:24@120, assets/kittens.png:28@30, assets/kittens.png:24@60, assets/kittens.png:26@40,",
+				"NightTexture": "assets/kittens.png:31@400, assets/kittens.png:29@20, assets/kittens.png:31@200, assets/kittens.png:30@20",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/kittens.png:32@100, assets/kittens.png:34@40, assets/kittens.png:32@80, assets/kittens.png:33@10, assets/kittens.png:32@140, assets/kittens.png:35@20, assets/kittens.png:32@100, assets/kittens.png:35@20, assets/kittens.png:32@120, assets/kittens.png:36@30",
+				"NightTexture": "assets/kittens.png:39@500, assets/kittens.png:38@20, assets/kittens.png:39@300, assets/kittens.png:37@20",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/kittens_left.png:0@120, assets/kittens_left.png:1@10, assets/kittens_left.png:0@80, assets/kittens_left.png:3@20, assets/kittens_left.png:0@100, assets/kittens_left.png:2@40, assets/kittens_left.png:0@140, assets/kittens_left.png:3@20, assets/kittens_left.png:0@100, assets/kittens_left.png:4@30",
+				"NightTexture": "assets/kittens_left.png:7@100, assets/kittens_left.png:6@20, assets/kittens_left.png:7@300, assets/kittens_left.png:5@20",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/kittens_left.png:8@80, assets/kittens_left.png:11@20, assets/kittens_left.png:8@100, assets/kittens_left.png:12@30, assets/kittens_left.png:8@60, assets/kittens_left.png:9@10, assets/kittens_left.png:8@100, assets/kittens_left.png:11@20, assets/kittens_left.png:8@120, assets/kittens_left.png:10@40",
+				"NightTexture": "assets/kittens_left.png:15@300, assets/kittens_left.png:13@20, assets/kittens_left.png:15@200, assets/kittens_left.png:14@20",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/kittens_left.png:16@60, assets/kittens_left.png:19@20, assets/kittens_left.png:16@120, assets/kittens_left.png:18@40, assets/kittens_left.png:16@100, assets/kittens_left.png:19@20, assets/kittens_left.png:16@100, assets/kittens_left.png:20@30, assets/kittens_left.png:16@120, assets/kittens_left.png:17@10",
+				"NightTexture": "assets/kittens_left.png:23@200, assets/kittens_left.png:22@20, assets/kittens_left.png:23@500, assets/kittens_left.png:21@20",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/kittens_left.png:24@80, assets/kittens_left.png:25@10, assets/kittens_left.png:24@140, assets/kittens_left.png:27@20, assets/kittens_left.png:24@120, assets/kittens_left.png:27@20, assets/kittens_left.png:24@120, assets/kittens_left.png:28@30, assets/kittens_left.png:24@60, assets/kittens_left.png:26@40,",
+				"NightTexture": "assets/kittens_left.png:31@400, assets/kittens_left.png:29@20, assets/kittens_left.png:31@200, assets/kittens_left.png:30@20",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/kittens_left.png:32@100, assets/kittens_left.png:34@40, assets/kittens_left.png:32@80, assets/kittens_left.png:33@10, assets/kittens_left.png:32@140, assets/kittens_left.png:35@20, assets/kittens_left.png:32@100, assets/kittens_left.png:35@20, assets/kittens_left.png:32@120, assets/kittens_left.png:36@30",
+				"NightTexture": "assets/kittens_left.png:39@500, assets/kittens_left.png:38@20, assets/kittens_left.png:39@300, assets/kittens_left.png:37@20",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "AnimalSupplies",
+		"MaxSold": 10,
+		"Cost": 400,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.petfurniture/Kitten"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Puppy",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/puppies.png:0@20, assets/puppies.png:2@20, assets/puppies.png:0@20, assets/puppies.png:2@20, assets/puppies.png:0@20, assets/puppies.png:2@20, assets/puppies.png:3@20, assets/puppies.png:4@20, assets/puppies.png:0@20, assets/puppies.png:2@20, assets/puppies.png:1@20, assets/puppies.png:2@20",
+				"NightTexture": "assets/puppies.png:5@100, assets/puppies.png:6@20, assets/puppies.png:5@100, assets/puppies.png:7@20, assets/puppies.png:5@100, assets/puppies.png:6@20",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/puppies.png:8@20, assets/puppies.png:10@20, assets/puppies.png:8@20, assets/puppies.png:10@20, assets/puppies.png:11@20, assets/puppies.png:12@20, assets/puppies.png:8@20, assets/puppies.png:10@20, assets/puppies.png:9@20, assets/puppies.png:10@20",
+				"NightTexture": "assets/puppies.png:13@120, assets/puppies.png:14@20, assets/puppies.png:13@120, assets/puppies.png:15@20, assets/puppies.png:13@120, assets/puppies.png:14@20",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+			{	
+				"Texture": "assets/puppies.png:16@25, assets/puppies.png:18@25, assets/puppies.png:16@25, assets/puppies.png:18@25, assets/puppies.png:16@25, assets/puppies.png:18@25, assets/puppies.png:19@25, assets/puppies.png:20@25, assets/puppies.png:16@25, assets/puppies.png:18@25, assets/puppies.png:17@20, assets/puppies.png:18@25",
+				"NightTexture": "assets/puppies.png:21@160, assets/puppies.png:22@20, assets/puppies.png:21@160, assets/puppies.png:23@20, assets/puppies.png:21@160, assets/puppies.png:22@20",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/puppies.png:24@25, assets/puppies.png:26@25, assets/puppies.png:24@25, assets/puppies.png:26@25, assets/puppies.png:27@25, assets/puppies.png:28@25, assets/puppies.png:24@25, assets/puppies.png:26@25, assets/puppies.png:25@25, assets/puppies.png:26@25",
+				"NightTexture": "assets/puppies.png:29@140, assets/puppies.png:30@20, assets/puppies.png:29@140, assets/puppies.png:31@20, assets/puppies.png:29@140, assets/puppies.png:30@20",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/puppies.png:32@15, assets/puppies.png:34@15, assets/puppies.png:32@15, assets/puppies.png:34@15, assets/puppies.png:32@15, assets/puppies.png:34@15, assets/puppies.png:35@15, assets/puppies.png:36@15, assets/puppies.png:32@15, assets/puppies.png:34@15, assets/puppies.png:33@15, assets/puppies.png:34@15",
+				"NightTexture": "assets/puppies.png:37@180, assets/puppies.png:38@20, assets/puppies.png:37@180, assets/puppies.png:39@20, assets/puppies.png:37@180, assets/puppies.png:38@20",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/puppies_left.png:0@20, assets/puppies_left.png:2@20, assets/puppies_left.png:0@20, assets/puppies_left.png:2@20, assets/puppies_left.png:0@20, assets/puppies_left.png:2@20, assets/puppies_left.png:3@20, assets/puppies_left.png:4@20, assets/puppies_left.png:0@20, assets/puppies_left.png:2@20, assets/puppies_left.png:1@20, assets/puppies_left.png:2@20",
+				"NightTexture": "assets/puppies_left.png:5@100, assets/puppies_left.png:6@20, assets/puppies_left.png:5@100, assets/puppies_left.png:7@20, assets/puppies_left.png:5@100, assets/puppies_left.png:6@20",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/puppies_left.png:8@20, assets/puppies_left.png:10@20, assets/puppies_left.png:8@20, assets/puppies_left.png:10@20, assets/puppies_left.png:11@20, assets/puppies_left.png:12@20, assets/puppies_left.png:8@20, assets/puppies_left.png:10@20, assets/puppies_left.png:9@20, assets/puppies_left.png:10@20",
+				"NightTexture": "assets/puppies_left.png:13@120, assets/puppies_left.png:14@20, assets/puppies_left.png:13@120, assets/puppies_left.png:15@20, assets/puppies_left.png:13@120, assets/puppies_left.png:14@20",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+			{	
+				"Texture": "assets/puppies_left.png:16@25, assets/puppies_left.png:18@25, assets/puppies_left.png:16@25, assets/puppies_left.png:18@25, assets/puppies_left.png:16@25, assets/puppies_left.png:18@25, assets/puppies_left.png:19@25, assets/puppies_left.png:20@25, assets/puppies_left.png:16@25, assets/puppies_left.png:18@25, assets/puppies_left.png:17@20, assets/puppies_left.png:18@25",
+				"NightTexture": "assets/puppies_left.png:21@160, assets/puppies_left.png:22@20, assets/puppies_left.png:21@160, assets/puppies_left.png:23@20, assets/puppies_left.png:21@160, assets/puppies_left.png:22@20",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/puppies_left.png:24@25, assets/puppies_left.png:26@25, assets/puppies_left.png:24@25, assets/puppies_left.png:26@25, assets/puppies_left.png:27@25, assets/puppies_left.png:28@25, assets/puppies_left.png:24@25, assets/puppies_left.png:26@25, assets/puppies_left.png:25@25, assets/puppies_left.png:26@25",
+				"NightTexture": "assets/puppies_left.png:29@140, assets/puppies_left.png:30@20, assets/puppies_left.png:29@140, assets/puppies_left.png:31@20, assets/puppies_left.png:29@140, assets/puppies_left.png:30@20",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/puppies_left.png:32@15, assets/puppies_left.png:34@15, assets/puppies_left.png:32@15, assets/puppies_left.png:34@15, assets/puppies_left.png:32@15, assets/puppies_left.png:34@15, assets/puppies_left.png:35@15, assets/puppies_left.png:36@15, assets/puppies_left.png:32@15, assets/puppies_left.png:34@15, assets/puppies_left.png:33@15, assets/puppies_left.png:34@15",
+				"NightTexture": "assets/puppies_left.png:37@180, assets/puppies_left.png:38@20, assets/puppies_left.png:37@180, assets/puppies_left.png:39@20, assets/puppies_left.png:37@180, assets/puppies_left.png:38@20",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "AnimalSupplies",
+		"MaxSold": 10,
+		"Cost": 500,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.petfurniture/Puppy"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Foal",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/foals.png:0@100, assets/foals.png:1@12, assets/foals.png:0@100, assets/foals.png:1@12, assets/foals.png:0@100, assets/foals.png:2@20, assets/foals.png:0@100, assets/foals.png:1@12, assets/foals.png:0@100, assets/foals.png:4@30, assets/foals.png:0@100, assets/foals.png:5@20, assets/foals.png:0@100 assets/foals.png:6@40, assets/foals.png:0@100, assets/foals.png:3@20",
+				"NightTexture": "assets/foals.png:7@600, assets/foals.png:6@100",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/foals.png:8@120, assets/foals.png:9@10, assets/foals.png:8@120, assets/foals.png:10@20, assets/foals.png:8@120, assets/foals.png:9@10, assets/foals.png:8@120, assets/foals.png:12@30, assets/foals.png:8@120, assets/foals.png:9@10, assets/foals.png:8@120, assets/foals.png:13@20, assets/foals.png:8@120 assets/foals.png:14@40, assets/foals.png:8@120, assets/foals.png:11@20",
+				"NightTexture": "assets/foals.png:15@500, assets/foals.png:14@120",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/foals.png:16@140, assets/foals.png:17@10, assets/foals.png:16@140, assets/foals.png:17@10, assets/foals.png:16@140, assets/foals.png:18@20, assets/foals.png:16@140, assets/foals.png:17@10, assets/foals.png:16@140, assets/foals.png:20@30, assets/foals.png:16@140, assets/foals.png:21@20, assets/foals.png:16@140 assets/foals.png:22@40, assets/foals.png:16@140, assets/foals.png:19@20",
+				"NightTexture": "assets/foals.png:23@300, assets/foals.png:22@100, assets/foals.png:23@300",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/foals.png:24@130, assets/foals.png:25@10, assets/foals.png:24@130, assets/foals.png:25@10, assets/foals.png:24@130, assets/foals.png:26@20, assets/foals.png:24@130, assets/foals.png:25@10, assets/foals.png:24@130, assets/foals.png:29@20, assets/foals.png:24@130 assets/foals.png:30@40, assets/foals.png:24@130, assets/foals.png:27@20, assets/foals.png:24@130, assets/foals.png:28@30",
+				"NightTexture": "assets/foals.png:31@700, assets/foals.png:30@120",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/foals.png:32@110, assets/foals.png:33@1120, assets/foals.png:32@110, assets/foals.png:34@20, assets/foals.png:32@110, assets/foals.png:33@12, assets/foals.png:32@110, assets/foals.png:36@30, assets/foals.png:32@110, assets/foals.png:37@20, assets/foals.png:32@110 assets/foals.png:38@40, assets/foals.png:32@110, assets/foals.png:35@20",
+				"NightTexture": "assets/foals.png:39@800, assets/foals.png:38@140",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/foals.png:40@150, assets/foals.png:41@10, assets/foals.png:40@150, assets/foals.png:41@10, assets/foals.png:40@150, assets/foals.png:42@20, assets/foals.png:40@150, assets/foals.png:41@10, assets/foals.png:40@150, assets/foals.png:44@30, assets/foals.png:40@150, assets/foals.png:45@20, assets/foals.png:40@150 assets/foals.png:46@40, assets/foals.png:40@150, assets/foals.png:43@20",
+				"NightTexture": "assets/foals.png:47@400, assets/foals.png:46@80, assets/foals.png:47@400",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/foals.png:48@160, assets/foals.png:49@12, assets/foals.png:48@160, assets/foals.png:50@20, assets/foals.png:48@160, assets/foals.png:49@12, assets/foals.png:48@160, assets/foals.png:52@30, assets/foals.png:48@160, assets/foals.png:53@20, assets/foals.png:48@160 assets/foals.png:54@40, assets/foals.png:48@160, assets/foals.png:51@20",
+				"NightTexture": "assets/foals.png:55@200, assets/foals.png:54@140, assets/foals.png:47@300",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/foals.png:56@90, assets/foals.png:57@10, assets/foals.png:56@90, assets/foals.png:57@10, assets/foals.png:56@90, assets/foals.png:58@20, assets/foals.png:56@90, assets/foals.png:57@10, assets/foals.png:56@90, assets/foals.png:60@30, assets/foals.png:56@90, assets/foals.png:61@20, assets/foals.png:56@90 assets/foals.png:62@40, assets/foals.png:56@90, assets/foals.png:59@20",
+				"NightTexture": "assets/foals.png:63@640, assets/foals.png:62@80",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/foals.png:64@80, assets/foals.png:65@10, assets/foals.png:64@80, assets/foals.png:65@10, assets/foals.png:64@80, assets/foals.png:66@20, assets/foals.png:64@80, assets/foals.png:65@10, assets/foals.png:64@80, assets/foals.png:68@30, assets/foals.png:64@80, assets/foals.png:69@20, assets/foals.png:64@80 assets/foals.png:70@40, assets/foals.png:64@80, assets/foals.png:67@20",
+				"NightTexture": "assets/foals.png:71@540, assets/foals.png:70@100, assets/foals.png:71@460",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/foals.png:72@170, assets/foals.png:73@10, assets/foals.png:72@170, assets/foals.png:77@20, assets/foals.png:72@170 assets/foals.png:78@40, assets/foals.png:72@170, assets/foals.png:74@20, assets/foals.png:72@170, assets/foals.png:73@10, assets/foals.png:72@170, assets/foals.png:76@30, assets/foals.png:72@170, assets/foals.png:75@20",
+				"NightTexture": "assets/foals.png:79@400, assets/foals.png:78@140, assets/foals.png:71@600",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/foals.png:80@180, assets/foals.png:82@20, assets/foals.png:80@180, assets/foals.png:81@10, assets/foals.png:80@180, assets/foals.png:81@10, assets/foals.png:80@180, assets/foals.png:81@10, assets/foals.png:80@180, assets/foals.png:84@30, assets/foals.png:80@180, assets/foals.png:85@20, assets/foals.png:80@180 assets/foals.png:86@40, assets/foals.png:80@180, assets/foals.png:83@20",
+				"NightTexture": "assets/foals.png:87@240, assets/foals.png:86@80, assets/foals.png:71@400",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/foals_left.png:0@100, assets/foals_left.png:1@12, assets/foals_left.png:0@100, assets/foals_left.png:1@12, assets/foals_left.png:0@100, assets/foals_left.png:2@20, assets/foals_left.png:0@100, assets/foals_left.png:1@12, assets/foals_left.png:0@100, assets/foals_left.png:4@30, assets/foals_left.png:0@100, assets/foals_left.png:5@20, assets/foals_left.png:0@100 assets/foals_left.png:6@40, assets/foals_left.png:0@100, assets/foals_left.png:3@20",
+				"NightTexture": "assets/foals_left.png:7@600, assets/foals_left.png:6@100",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/foals_left.png:8@120, assets/foals_left.png:9@10, assets/foals_left.png:8@120, assets/foals_left.png:10@20, assets/foals_left.png:8@120, assets/foals_left.png:9@10, assets/foals_left.png:8@120, assets/foals_left.png:12@30, assets/foals_left.png:8@120, assets/foals_left.png:9@10, assets/foals_left.png:8@120, assets/foals_left.png:13@20, assets/foals_left.png:8@120 assets/foals_left.png:14@40, assets/foals_left.png:8@120, assets/foals_left.png:11@20",
+				"NightTexture": "assets/foals_left.png:15@500, assets/foals_left.png:14@120",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/foals_left.png:16@140, assets/foals_left.png:17@10, assets/foals_left.png:16@140, assets/foals_left.png:17@10, assets/foals_left.png:16@140, assets/foals_left.png:18@20, assets/foals_left.png:16@140, assets/foals_left.png:17@10, assets/foals_left.png:16@140, assets/foals_left.png:20@30, assets/foals_left.png:16@140, assets/foals_left.png:21@20, assets/foals_left.png:16@140 assets/foals_left.png:22@40, assets/foals_left.png:16@140, assets/foals_left.png:19@20",
+				"NightTexture": "assets/foals_left.png:23@300, assets/foals_left.png:22@100, assets/foals_left.png:23@300",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/foals_left.png:24@130, assets/foals_left.png:25@10, assets/foals_left.png:24@130, assets/foals_left.png:25@10, assets/foals_left.png:24@130, assets/foals_left.png:26@20, assets/foals_left.png:24@130, assets/foals_left.png:25@10, assets/foals_left.png:24@130, assets/foals_left.png:29@20, assets/foals_left.png:24@130 assets/foals_left.png:30@40, assets/foals_left.png:24@130, assets/foals_left.png:27@20, assets/foals_left.png:24@130, assets/foals_left.png:28@30",
+				"NightTexture": "assets/foals_left.png:31@700, assets/foals_left.png:30@120",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/foals_left.png:32@110, assets/foals_left.png:33@1120, assets/foals_left.png:32@110, assets/foals_left.png:34@20, assets/foals_left.png:32@110, assets/foals_left.png:33@12, assets/foals_left.png:32@110, assets/foals_left.png:36@30, assets/foals_left.png:32@110, assets/foals_left.png:37@20, assets/foals_left.png:32@110 assets/foals_left.png:38@40, assets/foals_left.png:32@110, assets/foals_left.png:35@20",
+				"NightTexture": "assets/foals_left.png:39@800, assets/foals_left.png:38@140",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/foals_left.png:40@150, assets/foals_left.png:41@10, assets/foals_left.png:40@150, assets/foals_left.png:41@10, assets/foals_left.png:40@150, assets/foals_left.png:42@20, assets/foals_left.png:40@150, assets/foals_left.png:41@10, assets/foals_left.png:40@150, assets/foals_left.png:44@30, assets/foals_left.png:40@150, assets/foals_left.png:45@20, assets/foals_left.png:40@150 assets/foals_left.png:46@40, assets/foals_left.png:40@150, assets/foals_left.png:43@20",
+				"NightTexture": "assets/foals_left.png:47@400, assets/foals_left.png:46@80, assets/foals_left.png:47@400",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/foals_left.png:48@160, assets/foals_left.png:49@12, assets/foals_left.png:48@160, assets/foals_left.png:50@20, assets/foals_left.png:48@160, assets/foals_left.png:49@12, assets/foals_left.png:48@160, assets/foals_left.png:52@30, assets/foals_left.png:48@160, assets/foals_left.png:53@20, assets/foals_left.png:48@160 assets/foals_left.png:54@40, assets/foals_left.png:48@160, assets/foals_left.png:51@20",
+				"NightTexture": "assets/foals_left.png:55@200, assets/foals_left.png:54@140, assets/foals_left.png:47@300",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/foals_left.png:56@90, assets/foals_left.png:57@10, assets/foals_left.png:56@90, assets/foals_left.png:57@10, assets/foals_left.png:56@90, assets/foals_left.png:58@20, assets/foals_left.png:56@90, assets/foals_left.png:57@10, assets/foals_left.png:56@90, assets/foals_left.png:60@30, assets/foals_left.png:56@90, assets/foals_left.png:61@20, assets/foals_left.png:56@90 assets/foals_left.png:62@40, assets/foals_left.png:56@90, assets/foals_left.png:59@20",
+				"NightTexture": "assets/foals_left.png:63@640, assets/foals_left.png:62@80",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/foals_left.png:64@80, assets/foals_left.png:65@10, assets/foals_left.png:64@80, assets/foals_left.png:65@10, assets/foals_left.png:64@80, assets/foals_left.png:66@20, assets/foals_left.png:64@80, assets/foals_left.png:65@10, assets/foals_left.png:64@80, assets/foals_left.png:68@30, assets/foals_left.png:64@80, assets/foals_left.png:69@20, assets/foals_left.png:64@80 assets/foals_left.png:70@40, assets/foals_left.png:64@80, assets/foals_left.png:67@20",
+				"NightTexture": "assets/foals_left.png:71@540, assets/foals_left.png:70@100, assets/foals_left.png:71@460",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/foals_left.png:72@170, assets/foals_left.png:73@10, assets/foals_left.png:72@170, assets/foals_left.png:77@20, assets/foals_left.png:72@170 assets/foals_left.png:78@40, assets/foals_left.png:72@170, assets/foals_left.png:74@20, assets/foals_left.png:72@170, assets/foals_left.png:73@10, assets/foals_left.png:72@170, assets/foals_left.png:76@30, assets/foals_left.png:72@170, assets/foals_left.png:75@20",
+				"NightTexture": "assets/foals_left.png:79@400, assets/foals_left.png:78@140, assets/foals_left.png:71@600",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/foals_left.png:80@180, assets/foals_left.png:82@20, assets/foals_left.png:80@180, assets/foals_left.png:81@10, assets/foals_left.png:80@180, assets/foals_left.png:81@10, assets/foals_left.png:80@180, assets/foals_left.png:81@10, assets/foals_left.png:80@180, assets/foals_left.png:84@30, assets/foals_left.png:80@180, assets/foals_left.png:85@20, assets/foals_left.png:80@180 assets/foals_left.png:86@40, assets/foals_left.png:80@180, assets/foals_left.png:83@20",
+				"NightTexture": "assets/foals_left.png:87@240, assets/foals_left.png:86@80, assets/foals_left.png:71@400",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 1
+			},
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "AnimalSupplies",
+		"MaxSold": 10,
+		"Cost": 800,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.petfurniture/Foal"
+		}
+	},
+]
