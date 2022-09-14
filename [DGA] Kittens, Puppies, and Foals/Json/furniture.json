@@ -19,7 +19,7 @@
 		"Item":  
 		{
 			"Type": "DGAItem",
-			"Value": "staramy.petfurniture/Kitten Playpen"
+			"Value": "staramy.petbabies/Kitten Playpen"
 		}
 	},
 	{
@@ -42,7 +42,7 @@
 		"Item":  
 		{
 			"Type": "DGAItem",
-			"Value": "staramy.petfurniture/Puppy Playpen"
+			"Value": "staramy.petbabies/Puppy Playpen"
 		}
 	},
 	{
@@ -120,7 +120,7 @@
 		"Item":  
 		{
 			"Type": "DGAItem",
-			"Value": "staramy.petfurniture/Kitten"
+			"Value": "staramy.petbabies/Kitten"
 		}
 	},
 	{
@@ -198,7 +198,7 @@
 		"Item":  
 		{
 			"Type": "DGAItem",
-			"Value": "staramy.petfurniture/Puppy"
+			"Value": "staramy.petbabies/Puppy"
 		}
 	},
 	{
@@ -348,7 +348,7 @@
 		"Item":  
 		{
 			"Type": "DGAItem",
-			"Value": "staramy.petfurniture/Foal"
+			"Value": "staramy.petbabies/Foal"
 		}
 	},
 ]
